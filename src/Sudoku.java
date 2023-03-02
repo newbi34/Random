@@ -1,4 +1,6 @@
 import java.util.Arrays;
+//import java.io.File;
+//import java.util.Scanner;
 
 public class Sudoku {
 
@@ -7,6 +9,16 @@ public class Sudoku {
     public static void main(String[] args) {
 
         int[][] board = new int[LENGTH][LENGTH];
+        //File file = new File("C:\\Users\\Matej\\Documents\\programiranje 1\\VSC\\Random\\src\\sudoku.txt");
+        //Scanner sc = new Scanner(file);
+
+        /*for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                board[i][j] = sc.nextInt();
+            }
+        }
+        sc.close();*/
+
         Vector[][] potentialNumbers = new Vector[LENGTH][LENGTH];
         boolean [][] checkBoard = new boolean[LENGTH][LENGTH];
 
