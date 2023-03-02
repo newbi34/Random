@@ -79,7 +79,7 @@ public class Test {
             i++;
         }
         sc.close();
-        for (int index = 0; index < boardNumber; index++) {
+        for (int index = 0; index <= boardNumber; index++) {
             System.out.println(Arrays.deepToString(arr1[index]));
         }
         //printToTable(arr);
